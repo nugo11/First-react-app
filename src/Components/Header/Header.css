@@ -1,0 +1,14 @@
+.head {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.head span {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}

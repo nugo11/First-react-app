@@ -1,0 +1,52 @@
+.posts {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.postform {
+  width: 100%;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.postform img {
+  width: 100%;
+}
+
+.titlestyle {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.titlestyle h5 {
+  font-size: 18px;
+  color: black;
+  font-weight: 400;
+}
+
+.titlestyle span {
+  color: gray;
+}
+
+.fotstyle {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fotstyle button {
+  padding: 15px 20px 15px 20px;
+  border: 1px solid rgba(128, 128, 128, 0.368);
+}
+
+.fotstyle span {
+  padding: 5px 12px;
+  background-color: black;
+  color: white;
+}
